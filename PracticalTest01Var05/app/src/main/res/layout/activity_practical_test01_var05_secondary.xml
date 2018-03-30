@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+tools:context="practicaltest01var05.eim.systems.cs.pub.ro.practicaltest01var05.PracticalTest01Var05SecondaryActivity">
+
+
+
+<TextView
+    android:id="@+id/result"
+    android:layout_width="184dp"
+    android:layout_height="42dp"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="16dp" />
+
+<Button
+    android:id="@+id/return_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/sum"
+    android:text="RETURN"
+    tools:layout_editor_absoluteX="240dp"
+    tools:layout_editor_absoluteY="16dp" />
+
+
+</LinearLayout>
